@@ -1,0 +1,6 @@
+{
+  "name": "Archivio & Lettore HTML",
+  "description": "Lettore HTML e archivio dinamico organizzato in cartelle e sottocartelle senza configurazioni JSON né server complessi, con layout elegante in grigio perla.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
