@@ -28,14 +28,16 @@ import {
   exportArchiveZip,
 } from './services/storage';
 import { formatFileSize, parseHtmlMetadata } from './utils/htmlParser';
-import { Header } from './components/Header';
-import { CategorySection } from './components/CategorySection';
-import { FolderTreeView } from './components/FolderTreeView';
-import { HtmlReaderModal } from './components/HtmlReaderModal';
-import { UploadModal } from './components/UploadModal';
-import { NewFileModal } from './components/NewFileModal';
-import { RenameCategoryModal } from './components/RenameCategoryModal';
-import { PublicStructureModal } from './components/PublicStructureModal';
+import {
+  Header,
+  CategorySection,
+  FolderTreeView,
+  HtmlReaderModal,
+  UploadModal,
+  NewFileModal,
+  RenameCategoryModal,
+  PublicStructureModal,
+} from './components';
 
 export default function App() {
   const [files, setFiles] = useState<HtmlFile[]>([]);
